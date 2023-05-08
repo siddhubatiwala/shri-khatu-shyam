@@ -1,0 +1,273 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+form {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 5px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  /* textarea {
+    
+  } */
+  
+  input, select, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #06f;
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: #f00;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .form-check-input {
+    margin-top: 5px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #06f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #005ae6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #06f;
+    color: #fff;
+  }
+  
+  /* New styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-check-label {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .date-picker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .date-picker select {
+    display: block;
+    width: calc(50% - 5px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .date-picker label {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+   /* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #06f;
+    box-shadow: 0 0 5px rgba(0, 102, 255, 0.5);
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: #f00;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .form-check-input {
+    margin-top: 5px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #06f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #005ae6;
+  }
+  
+  
+  /* New styles */
+  .form-group {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .form-check-label {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .date-picker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .date-picker select {
+    display: block;
+    width: calc(50% - 5px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-picker label {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+  } */
+
+/*   
+  @media screen and (max-width: 767px) {
+    .date-picker select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  } 
